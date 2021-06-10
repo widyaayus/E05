@@ -1,0 +1,104 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .header-right {
+    display: none;
+  }
+
+  .container span.fa{
+    display: block;
+  }
+  .top {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+  
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  input, textarea {
+    width: 100%;
+  }
+  .w-col-2 {
+    width: none;
+  }
+  .footer-link {
+    white-space: normal;
+}
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  span.menu-icon {
+    display: block;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+    width: 100%;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .lesson {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  .footer-columns {
+    text-align: center;
+  }
+  .w-col {
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .w-row, .w-container .w-row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .w-col-2 {
+    width: none;
+  }
+  .w-col {
+    width: 100%;
+}
+}
