@@ -146,7 +146,7 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.lesson-wrapper {
+.destination-wrapper, .transportation-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
@@ -164,16 +164,16 @@ header {
   font-weight: normal;
 }
 
-.lesson {
+.destination, .transportation {
   float: left;
   width: 25%;
 }
 
-.lesson-icon {
+.destination-icon, .transportation-icon {
   position: relative;
 }
 
-.lesson-icon p {
+.destination-icon p, .transportation-icon p {
   position: absolute;
   top: 44%;
   width: 100%;
@@ -236,20 +236,6 @@ input, textarea {
   background-color: #dee7ec;
   color: #889eab;
 }
-
-/* footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-} */
 
 .section-social {
   position: relative;
