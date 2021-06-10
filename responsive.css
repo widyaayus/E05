@@ -3,7 +3,6 @@
   .header-right {
     display: none;
   }
-
   .container span.fa{
     display: block;
   }
@@ -11,24 +10,19 @@
     width: 50%;
     margin-bottom: 50px;
   }
-  
   .top-wrapper h1 {
     font-size: 32px;
   }
-
   .heading h2 {
     font-size: 20px;
   }
-  
-  .lesson {
+  .destination, .transportation {
     width: 50%;
     margin-bottom: 50px;
   }
-
   .contact-form {
     width: 100%;
   }
-
   input, textarea {
     width: 100%;
   }
@@ -37,8 +31,7 @@
   }
   .footer-link {
     white-space: normal;
-}
-
+  }
 }
 
 /* Untuk Smartphone */
@@ -46,38 +39,30 @@
   .header-right {
     display: none;
   }
-  
   span.menu-icon {
     display: block;
   }
-  
   .btn {
     width: 100%;
   }
-
   .facebook {
     margin-bottom: 10px;
   }
-  
   .top-wrapper {
     text-align: left;
     width: 100%;
   }
-  
   .top-wrapper h1 {
     font-size: 24px;
     line-height: 36px;
   }
-  
   .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
   }
-  
-  .lesson {
+  .destination, .transportation {
     width: 100%;
   }
-  
   footer {
     text-align: center;
   }
@@ -100,5 +85,5 @@
   }
   .w-col {
     width: 100%;
-}
+  }
 }
